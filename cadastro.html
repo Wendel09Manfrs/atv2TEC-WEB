@@ -1,15 +1,27 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
-    <center> <strong>
-            <h1>Cadastro na plataforma CineManfrs</h1>
-        </strong> </center>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atv2_TEC-WEB</title>
+
 </head>
 
-<body>
-    <div>
 
+<body>
+    <header>
+        <center> <strong>
+                <h1>Cadastro na plataforma CineManfrs</h1>
+            </strong> </center>
+
+        <label for="progresso">Status do cadastro</label>
+        <progress id="progresso" max="100" value="40">40%</progress>
+    </header>
+    <br>
+
+    <div>
         <form action="index.html" method="post">
 
             <label for="birthday">Data de Nascimento:</label>
@@ -93,9 +105,9 @@
 
             <input type="submit" value="Enviar Dados">
 
-        </form>
+        </form> <br>
 
-        <a href="index.html"> <button>Cancelar</button>   </a>
+        <a href="index.html"> <button>Cancelar</button> </a>
 
     </div>
 
